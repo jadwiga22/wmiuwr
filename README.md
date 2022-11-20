@@ -18,7 +18,7 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Topologia
 - Metody programowania
 
-### III semestr (zimowy, 2022/2023)
+### III semestr (zimowy, 2022/2023):
 
 - Analiza matematyczna III
 - Algebra II
