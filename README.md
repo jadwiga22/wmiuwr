@@ -25,3 +25,10 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Miara i całka (funkcje rzeczywiste)
 - Analiza numeryczna (M)
 - Wybrane elementy praktyki projektowania oprogramowania
+
+### IV semestr (letni, 2022/2023):
+
+- Algorytmy i struktury danych
+- Równania różniczkowe 1R
+- Rachunek prawdopodobieństwa 1R
+- Architektury systemów komputerowych
