@@ -33,3 +33,5 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Rachunek prawdopodobieństwa 1R
 - Architektury systemów komputerowych
 - Ochrona własności intelektualnej
+
+:)
