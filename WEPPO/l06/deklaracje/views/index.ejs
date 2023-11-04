@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formularz deklaracji</title>
+    </head>
+    <body>
+        <form method="POST">
+            <div>
+                <table>
+                  <caption>
+                    FORMULARZ DEKLARACJI
+                  </caption>
+                    <tr>
+                        <th>Imię</th>
+                        <td>
+                            <input
+                                type="text"
+                                name="name"
+                                value="<%= name %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Nazwisko</th>
+                        <td>
+                            <input
+                                type="text"
+                                name="surname"
+                                value="<%= surname %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Przedmiot</th>
+                        <td>
+                            <input
+                                type="text"
+                                name="subject"
+                                value="<%= subject %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Zadanie</th>
+                        <th>Punkty</th>
+                    </tr>
+                    <% for( var i = 1; i <= 10; i++) { %>
+                    <tr>
+                        <td><%= i %></td>
+                        <td>
+                            <input
+                                type="number"
+                                name="task"
+                                value="<%= task[i-1] %>"
+                            />
+                        </td>
+                    </tr>
+                    <% } %>
+                </table>
+            </div>
+            <button>Widok wydruku</button>
+            <% if ( locals.message ) { %>
+            <div><%= locals.message %></div>
+            <% } %>
+        </form>
+    </body>
+</html>

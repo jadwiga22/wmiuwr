@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Formularz deklaracji - wydruk</title>
+        <style>
+            td {
+                text-align: center;
+            }
+            table, tr, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="print-content">
+            <table style="width: 50%">
+                <caption>
+                    FORMULARZ DEKLARACJI
+                </caption>
+                <tr>
+                    <th>Imię</th>
+                    <td><%= name %></td>
+                </tr>
+                <tr>
+                    <th>Nazwisko</th>
+                    <td><%= surname %></td>
+                </tr>
+                <tr>
+                    <th>Przedmiot</th>
+                    <td><%= subject %></td>
+                </tr>
+
+                <tr>
+                    <th>Zadanie</th>
+                    <th>Punkty</th>
+                </tr>
+
+                <% var sum = 0; %> <% for( var i = 1; i <= 10; i++) { %>
+                <tr>
+                    <td><%= i %></td>
+                    <td>
+                        <% var cur; if( task[i-1] ) { cur = Number( task[i-1] );
+                        } else { cur = 0; } sum += cur; %> <%= cur %>
+                    </td>
+                </tr>
+                <% } %>
+                <tr>
+                    <th>SUMA</th>
+                    <td><%= sum %></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <input type="button" value="Drukuj" onClick="window.print()">
+        </div>
+    </body>
+</html>

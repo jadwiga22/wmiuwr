@@ -1,0 +1,4 @@
+Zadanie 1: Burp, np. aplikacja deklaracji
+Zadanie 2: Lista 06/serwer_https.js, wpisać https
+Zadanie 3: Lista 06/app/download
+Zadanie 4: Lista 06/deklaracje
