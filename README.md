@@ -33,3 +33,13 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Rachunek prawdopodobieństwa 1R
 - Architektury systemów komputerowych
 - Ochrona własności intelektualnej
+
+### V semestr (zimowy, 2023/2024):
+
+- Analiza funkcjonalna 1
+- Rachunek prawdopodobieństwa 2R
+- Proseminarium 1
+- Zespołowy projekt specjalnościowy
+- Kurs rozszerzony języka Python 
+- Programowanie funkcyjne
+- O ekonomii i gospodarce inaczej
