@@ -1,0 +1,9 @@
+Które z OWASP Top 10 dotyczą nawet prostych aplikacji?
+
+- A01 : Broken Acces Control -> wchodzenie na strony, do których się nie powinno mieć dostępu; 
+np. dostęp do widoku administartora lub danych innych użytkowników
+
+- A03 : Injection -> użytkownik może wpisać gdzieś skrypt/kod, który się wykona na serwerze;
+np. w pasku adresowym lub w polu tekstowym
+
+- A10 : Server-Side Request Forgery (SSRF) -> podobnie jak A03 (jaka jest różnica?)

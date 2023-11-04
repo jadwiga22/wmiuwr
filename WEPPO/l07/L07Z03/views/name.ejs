@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imię</title>
+</head>
+<body>
+    <div>
+        <% if( !name ) { %>
+            Musisz podać swoje imię, aby wyświetlić tę stronę.
+            <p>
+                <a href="./">Powrót do strony głównej</a>
+            </p>            
+        <% } else { %>
+            Cześć, <%= name %>!
+            <p>
+                <form method="post">
+                    <button>Usuń moje imię</button>
+                </form>
+                <a href="./name">Odśwież</a>
+            </p>
+        <% } %>        
+    </div>
+</body>
+</html>

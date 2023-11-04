@@ -1,0 +1,7 @@
+<select name="<%= name %>">
+    <% options.forEach( option => { %>
+    <option value="<%= option.value %>"  type="checkbox">
+        <%= option.text %>
+    </option>
+    <% }) %>
+</select>

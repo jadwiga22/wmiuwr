@@ -1,0 +1,8 @@
+<% options.forEach( option => { %>
+    <div>
+        <input type="<%= type %>", id="<%= option.id %>", value="<%= option.value %>", name="<%= name %>">
+        <label for="<%= option.id %>">
+            <%= option.value %>
+        </label>
+    </div>
+<% }) %>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szablony</title>
+</head>
+<body>
+    <div>
+        Wywołanie szablonu z innego szablonu
+        <%- include( 'select', {
+            name: 'Lista',
+            options: [
+            { value : 1, text : 'element 1' },
+            { value : 2, text : 'element 2' },
+            { value : 3, text : 'element 3' },
+            ]
+        }) %>
+    </div>
+    <div>
+        Wywołanie szablonu radio
+        <%- include( 'select_radio', {
+            type: 'radio',
+            name: 'Rozmiar',
+            options: [
+            { value: "XS", id: "xs" },
+            { value: "S", id: "s" },
+            { value: "M", id: "m" },
+            { value: "L", id: "l" },
+            { value: "XL", id: "xl" },
+            ]
+        }) %>
+    </div>
+    <div>
+        Wywołanie szablonu checkbox
+        <%- include( 'select_radio', {
+            type: 'checkbox',
+            name: 'Rozmiar',
+            options: [
+            { value: "XS", id: "xs" },
+            { value: "S", id: "s" },
+            { value: "M", id: "m" },
+            { value: "L", id: "l" },
+            { value: "XL", id: "xl" },
+            ]
+        }) %>
+    </div>
+</body>
+</html>
