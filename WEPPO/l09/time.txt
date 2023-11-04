@@ -1,0 +1,9 @@
+No index:
+Select execution time: 217.946044921875ms
+Select execution time: 218.030ms
+
+Index:
+Select execution time: 217.10205078125ms
+Select execution time: 217.176ms
+
+Nie ma różnicy - może przez to, że postgresql przeanalizował rekordy, ktore mają tylko 100 różnych wartości.
