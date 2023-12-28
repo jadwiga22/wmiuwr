@@ -1,6 +1,7 @@
 .vscode/
 package-lock.json
 node_modules/
+private.py
 *.cmo
 *.cmi
 *.out
