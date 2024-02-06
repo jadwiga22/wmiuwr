@@ -8,16 +8,24 @@ open Peano ;;
 #install_printer pp_print_theorem ;;
 
 (* --------------- LEMMA 1 ------------------ *)
-(* ∀x.∀y.x = y ⇒ y = x. *)
+(* ∀x.∀y.x = y ⇒ y = x *)
 
 let lem1 = ForAll("x", ForAll("y", Imp(App("=", [Var "x"; Var "y"]), App("=", [Var "y"; Var "x"]))))
 
 let proof_lem1 =  proof [] lem1 
+(* Fix x *)
   |> introA "x"
+(* Fix y. Goal: x = y -> y = x *)
   |> introA "y"
+(* Assume x = y. Goal: y = x. *)
   |> intro "H1"
+(* Denote P(z) == (z = x). 
+Then by axiom x = y -> P(x) -> P(y),
+where P(y) == y = x (current goal). Goal: x = y. *)
   |> apply_thm (all_e (all_e (thm_axiom (EqElim("z", App("=", [Var "z"; Var "x"])))) (Var "x")) (Var "y"))
+(* By assumption x = y. Goal: P(x) == x = x *)
   |> apply_assm "H1"
+(* By axiom x = x. QED *)
   |> apply_thm (all_e (thm_axiom EqRefl) (Var("x")) )
   |> qed
 
