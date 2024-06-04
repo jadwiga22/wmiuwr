@@ -43,3 +43,10 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Kurs rozszerzony języka Python 
 - Programowanie funkcyjne
 - O ekonomii i gospodarce inaczej
+  
+### VI semestr (letni, 2023/2024):
+
+- Bazy danych
+- Języki formalne i złożoność obliczeniowa
+- Methods of classification and dimensionality reduction
+- Sztuczna inteligencja
