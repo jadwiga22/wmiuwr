@@ -4,6 +4,13 @@
 
 In this repository I present files from my studies in the program of Joint Studies in Mathematics and Computer Science at the University of Wrocław.
 
+### Projects 
+
+1. [Recommender system for movies](https://github.com/jadwiga22/wmiuwr/tree/main/MCDR/prj1) in Python. Given some ratings of movies by users, we predict the ratings of the yet unrated movies using 4 different methods: NMF (Non-Negative Matrix Factorization), SVD1 (Singular Value Decomposition), SVD2 (Iterated Singular Value Decomposition), SGD (Stochastic Gradient Descent).
+2. [schedule](https://github.com/jadwiga22/schedule) - Python command-line application for managing events, participants and places. Provides direct access to database or via API. Uses `flask` and `sqlalchemy`.
+3. [Proof assistant](https://github.com/jadwiga22/wmiuwr/tree/main/PF/proof) in `OCaml`. Command-line proof assistant, which helps in proving theorems in first-order logic (with Peano axioms).
+4. [Permutation networks](https://github.com/jadwiga22/permutation-networks). Group thesis-like project (in Polish). Definitions of permutation networks and construction for some subsets of permutations.
+
 ### I semester (winter, 2021/2022):
 
 - Advanced calculus I [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/AMI)
@@ -26,7 +33,7 @@ In this repository I present files from my studies in the program of Joint Studi
 - Algebra II
 - Measure and integration [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/MiC)
 - Numerical analysis (advanced) [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/ANM)
-- Selected Aspects of Practical Software Development
+- Selected Aspects of Practical Software Development [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/WEPPO)
 
 ### IV semester (summer, 2022/2023):
 
@@ -51,7 +58,7 @@ In this repository I present files from my studies in the program of Joint Studi
 - Introduction to databases
 - Formal Languages and Computational Complexity
 - Methods of classification and dimensionality reduction [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/MCDR/)
-- Artificial Intelligence 
+- Artificial Intelligence [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/SI)
 
 
 ## Polish
@@ -80,7 +87,7 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Algebra II
 - Miara i całka (funkcje rzeczywiste) [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/MiC)
 - Analiza numeryczna (M) [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/ANM)
-- Wybrane elementy praktyki projektowania oprogramowania
+- Wybrane elementy praktyki projektowania oprogramowania [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/WEPPO)
 
 ### IV semestr (letni, 2022/2023):
 
@@ -105,4 +112,4 @@ W tym repozytorium zamieszczam pliki związane z studiami na kierunku ISIM na Wy
 - Bazy danych
 - Języki formalne i złożoność obliczeniowa
 - Methods of classification and dimensionality reduction [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/MCDR/)
-- Sztuczna inteligencja
+- Sztuczna inteligencja [(link)](https://github.com/jadwiga22/wmiuwr/tree/main/SI)
