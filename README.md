@@ -7,9 +7,10 @@ In this repository I present files from my studies in the program of Joint Studi
 ### Projects 
 
 1. [Recommender system for movies](https://github.com/jadwiga22/wmiuwr/tree/main/MCDR/prj1) in Python. Given some ratings of movies by users, we predict the ratings of the yet unrated movies using 4 different methods: NMF (Non-Negative Matrix Factorization), SVD1 (Singular Value Decomposition), SVD2 (Iterated Singular Value Decomposition), SGD (Stochastic Gradient Descent).
-2. [schedule](https://github.com/jadwiga22/schedule) - Python command-line application for managing events, participants and places. Provides direct access to database or via API. Uses `flask` and `sqlalchemy`.
-3. [Proof assistant](https://github.com/jadwiga22/wmiuwr/tree/main/PF/proof) in `OCaml`. Command-line proof assistant, which helps in proving theorems in first-order logic (with Peano axioms).
-4. [Permutation networks](https://github.com/jadwiga22/permutation-networks). Group thesis-like project (in Polish). Definitions of permutation networks and construction for some subsets of permutations.
+2. [Devices classifier](https://github.com/jadwiga22/wmiuwr/tree/main/MCDR/prj2) in  Python. Given data on power consumption by 5 home appliances, we train 5 models, which calculate the probability that some power consumption data was produced by this appliance. We solve this problem using hidden Markov models.
+3. [schedule](https://github.com/jadwiga22/schedule) - Python command-line application for managing events, participants and places. Provides direct access to database or via API. Uses `flask` and `sqlalchemy`.
+4. [Proof assistant](https://github.com/jadwiga22/wmiuwr/tree/main/PF/proof) in `OCaml`. Command-line proof assistant, which helps in proving theorems in first-order logic (with Peano axioms).
+5. [Permutation networks](https://github.com/jadwiga22/permutation-networks). Group thesis-like project (in Polish). Definitions of permutation networks and construction for some subsets of permutations.
 
 ### I semester (winter, 2021/2022):
 
